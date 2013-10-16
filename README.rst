@@ -32,6 +32,14 @@ Running Packer
     $ packer build template.json
 
 
+If you want to build only virtualbox or vmware
+
+::
+
+    $ packer build -only virtualbox template.json
+    $ packer build -only vmware template.json
+
+
 Supported versions
 ------------------
 This templates was tested using a packer 0.3.7 .
