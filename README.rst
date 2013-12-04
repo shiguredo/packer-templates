@@ -42,4 +42,4 @@ If you want to build only virtualbox or vmware
 
 Supported versions
 ------------------
-This templates was tested using a packer 0.3.7 .
+This templates was tested using a packer 0.4.0 .
