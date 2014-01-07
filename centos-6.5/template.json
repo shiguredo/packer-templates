@@ -4,7 +4,7 @@
       "type": "shell",
       "execute_command": "echo 'vagrant'|sudo -S sh '{{.Path}}'",
       "override": {
-        "virtualbox": {
+        "virtualbox-iso": {
           "scripts": [
             "scripts/base.sh",
             "scripts/vagrant.sh",
@@ -12,7 +12,7 @@
             "scripts/cleanup.sh"
           ]
         },
-        "vmware": {
+        "vmware-iso": {
           "scripts": [
             "scripts/base.sh",
             "scripts/vagrant.sh",
@@ -26,17 +26,19 @@
   "post-processors": [
     {
       "type": "vagrant",
-      "virtualbox": {
-        "output": "centos-6-5-x64-virtualbox.box"
-      },
-      "vmware": {
-        "output": "centos-6-5-x64-vmware.box"
+      "override": {
+        "virtualbox": {
+          "output": "centos-6-5-x64-virtualbox.box"
+        },
+        "vmware": {
+          "output": "centos-6-5-x64-vmware.box"
+        }
       }
     }
   ],
   "builders": [
     {
-      "type": "virtualbox",
+      "type": "virtualbox-iso",
       "boot_command": [
         "<tab> text ks=http://{{ .HTTPIP }}:{{ .HTTPPort }}/ks.cfg<enter><wait>"
       ],
@@ -60,7 +62,7 @@
       ]
     },
     {
-      "type": "vmware",
+      "type": "vmware-iso",
       "boot_command": [
         "<tab> text ks=http://{{ .HTTPIP }}:{{ .HTTPPort }}/ks.cfg<enter><wait>"
       ],
