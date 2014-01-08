@@ -36,8 +36,8 @@ If you want to build only virtualbox or vmware
 
 ::
 
-    $ packer build -only virtualbox template.json
-    $ packer build -only vmware template.json
+    $ packer build -only=virtualbox-iso template.json
+    $ packer build -only=vmware-iso template.json
 
 
 Supported versions
