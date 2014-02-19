@@ -10,7 +10,8 @@
             "scripts/vagrant.sh",
             "scripts/virtualbox.sh",
             "scripts/cleanup.sh",
-            "scripts/zerodisk.sh"
+            "scripts/zerodisk.sh",
+            "scripts/ntp.sh"
           ]
         },
         "vmware-iso": {
@@ -18,7 +19,8 @@
             "scripts/base.sh",
             "scripts/vagrant.sh",
             "scripts/cleanup.sh",
-            "scripts/zerodisk.sh"
+            "scripts/zerodisk.sh",
+            "scripts/ntp.sh"
           ]
         }
       }
