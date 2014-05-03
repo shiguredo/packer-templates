@@ -7,7 +7,6 @@ Packer templates for building base VM boxes.
 Usage
 =====
 
-
 Installing Packer
 -----------------
 
@@ -21,7 +20,6 @@ If you're using Homebrew
     $ brew install packer
 
 
-
 Running Packer
 --------------
 
@@ -32,7 +30,7 @@ Running Packer
     $ packer build template.json
 
 
-If you want to build only virtualbox or vmware
+If you want to build only virtualbox or vmware.
 
 ::
 
@@ -40,6 +38,14 @@ If you want to build only virtualbox or vmware
     $ packer build -only=vmware-iso template.json
 
 
+Parallel builds can be run on 0.6.0 or latest packer version.
+
+::
+
+    $ packer build -parallel=true template.json
+
+
 Supported versions
 ------------------
-This templates was tested using a packer 0.5.2 .
+
+This templates was tested using a packer 0.6.0 .
