@@ -28,10 +28,10 @@
       "type": "vagrant",
       "override": {
         "virtualbox": {
-          "output": "centos-6-5-x64-virtualbox.box"
+          "output": "scientific-6-5-x64-virtualbox.box"
         },
         "vmware": {
-          "output": "centos-6-5-x64-vmware.box"
+          "output": "scientific-6-5-x64-vmware.box"
         }
       }
     }
@@ -46,9 +46,9 @@
       "disk_size": 40520,
       "guest_os_type": "RedHat_64",
       "http_directory": "http",
-      "iso_checksum": "f21a71e8e31df73297bdd1ccd4a64a36831284bd",
+      "iso_checksum": "a95e182f6ed14a4fb36e448d6eb19a6a59a34778",
       "iso_checksum_type": "sha1",
-      "iso_url": "http://ftp.iij.ad.jp/pub/linux/centos/6.5/isos/x86_64/CentOS-6.5-x86_64-minimal.iso",
+      "iso_url": "http://ftp.riken.jp/Linux/scientific/6.5/x86_64/iso/SL-65-x86_64-2014-01-27-Install-DVD.iso",
       "ssh_username": "vagrant",
       "ssh_password": "vagrant",
       "ssh_port": 22,
@@ -68,11 +68,11 @@
       ],
       "boot_wait": "10s",
       "disk_size": 40520,
-      "guest_os_type": "centos-64",
+      "guest_os_type": "RedHat_64",
       "http_directory": "http",
-      "iso_checksum": "f21a71e8e31df73297bdd1ccd4a64a36831284bd",
+      "iso_checksum": "a95e182f6ed14a4fb36e448d6eb19a6a59a34778",
       "iso_checksum_type": "sha1",
-      "iso_url": "http://ftp.iij.ad.jp/pub/linux/centos/6.5/isos/x86_64/CentOS-6.5-x86_64-minimal.iso",
+      "iso_url": "http://ftp.riken.jp/Linux/scientific/6.5/x86_64/iso/SL-65-x86_64-2014-01-27-Install-DVD.iso",
       "ssh_username": "vagrant",
       "ssh_password": "vagrant",
       "ssh_port": 22,
@@ -87,3 +87,4 @@
     }
   ]
 }
+
