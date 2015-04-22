@@ -35,7 +35,6 @@ If you want to build only virtualbox or vmware.
 ::
 
     $ packer build -only=virtualbox-iso template.json
-    $ packer build -only=vmware-iso template.json
 
 
 Parallel builds can be run on 0.6.0 or latest packer version.
@@ -48,4 +47,4 @@ Parallel builds can be run on 0.6.0 or latest packer version.
 Supported versions
 ------------------
 
-This templates was tested using a packer 0.7.1 .
+This templates was tested using a packer 0.7.5 .
