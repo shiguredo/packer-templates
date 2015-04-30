@@ -30,7 +30,7 @@ Running Packer
     $ packer build template.json
 
 
-If you want to build only virtualbox or vmware.
+If you want to build only virtualbox.
 
 ::
 
