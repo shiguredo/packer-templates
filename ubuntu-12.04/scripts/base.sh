@@ -1,3 +1,4 @@
+rm /var/lib/apt/lists/*
 apt-get update
 apt-get -y upgrade
 apt-get -y install linux-headers-$(uname -r)
