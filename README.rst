@@ -14,6 +14,12 @@ If you don't need to build a customized box, maybe you can use those boxes inste
 * `ubuntu/trusty32 <https://atlas.hashicorp.com/ubuntu/boxes/trusty32>`_
 * `centos/7 <https://atlas.hashicorp.com/centos/boxes/7>`_
 
+For example, you can use Vagrantfile like below to use official CentOS 7 box.
+
+::
+    Vagrant.configure(2) do |config|
+      config.vm.box = "centos/7"
+    end
 
 Usage
 =====
