@@ -35,7 +35,7 @@
 	  "metadata":{
 		"created_at":"{{timestamp}}",
 		"provider":"virtualbox",
-                "version": "1.0.1"
+        "version": "1.0.22"
 	  }
 	}
   ]],
