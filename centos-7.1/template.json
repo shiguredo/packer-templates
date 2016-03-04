@@ -34,7 +34,8 @@
 	  "artifact_type":"vagrant.box",
 	  "metadata":{
 		"created_at":"{{timestamp}}",
-		"provider":"virtualbox"
+		"provider":"virtualbox",
+                "version": "1.0.1"
 	  }
 	}
   ]],
