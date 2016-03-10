@@ -1,6 +1,6 @@
 {
   "variables":{
-	"atlas_token":"{{env `ATLAS_TOKEN`}}" 
+	"atlas_token":"{{env `ATLAS_TOKEN`}}"
   },
   "provisioners": [
     {
@@ -35,7 +35,7 @@
 	  "metadata":{
 		"created_at":"{{timestamp}}",
 		"provider":"virtualbox",
-        "version": "1.0.22"
+        "version": "1.1.0"
 	  }
 	}
   ]],
