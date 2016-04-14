@@ -2,12 +2,13 @@
 shiguredo-packer-templates
 ==========================
 
-**This repository has finished updating**
-
 Packer templates for building base VM boxes.
 
-NOTE: Maybe you prefer official Ubuntu and CentOS vagrant boxes
-===============================================================
+This repository has finished updating
+=====================================
+
+Maybe you prefer official Ubuntu and CentOS vagrant boxes
+---------------------------------------------------------
 
 There are now official Ubuntu and CentOS vagrant boxes at `Vagrant Cloud <https://atlas.hashicorp.com/boxes/search?utm_source=vagrantcloud.com&vagrantcloud=1>`_. These boxes are regularly updated to have newer packages.
 If you don't need to build a customized box, maybe you can use those boxes instead of building boxes yourself using Packer and templates in this repository.
