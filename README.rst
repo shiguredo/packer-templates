@@ -2,6 +2,8 @@
 shiguredo-packer-templates
 ==========================
 
+**This repository has finished updating**
+
 Packer templates for building base VM boxes.
 
 NOTE: Maybe you prefer official Ubuntu and CentOS vagrant boxes
