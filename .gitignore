@@ -1,3 +1,7 @@
 packer_cache
 *.box
 output-*
+
+# Vim generated files
+*~
+*.swp
